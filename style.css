@@ -1,7 +1,73 @@
-.bigContainer{
-  display: flex;
-}
+  .bigContainer{
+    display: flex;
+    flex-direction:column;
+    height: auto;
+    width: auto;
 
-.header{
-  
-}
+  }
+
+  .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    background-color: #4059A1;
+    color:white;
+    font-size: 12px
+  }
+
+  .logo{
+    font-size: 24px;
+  }
+
+
+
+  .center{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+    background-image: linear-gradient(to bottom, white, #D5D9EB)
+  }
+
+  .leftHand{
+    width: 580px;
+    height: 297px;
+
+  }
+
+  .connect{
+    font-size: 20px;
+    color: #0e385f;
+  }
+
+  .floatingText{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .create{
+    font-size: 36px;
+  }
+  .free{
+    font-size: 19px;
+  }
+
+  .inputs{
+    width: 172px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    color: #999999;
+    font-size:  18px;
+  }
+
+  .longInputs{
+    width: 354px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    color: #999999;
+    font-size:  18px;
+  }
